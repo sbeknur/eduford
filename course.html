@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Course</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="logo" />
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#">Course</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Course</h1>
+        </section>
+
+        <content>
+            <!-- course -->
+            <section class="course">
+                <h1>Lorem, ipsum dolor.</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Culpa illum dolorum hic.
+                </p>
+
+                <div class="row">
+                    <div class="cource-col">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Provident recusandae harum ullam ea, quam
+                            corporis aliquid? Dolorum fugit officia enim autem
+                            aspernatur sit, alias, dignissimos, perferendis
+                            incidunt voluptas debitis molestias.
+                        </p>
+                    </div>
+
+                    <div class="cource-col">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Provident recusandae harum ullam ea, quam
+                            corporis aliquid? Dolorum fugit officia enim autem
+                            aspernatur sit, alias, dignissimos, perferendis
+                            incidunt voluptas debitis molestias.
+                        </p>
+                    </div>
+
+                    <div class="cource-col">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Provident recusandae harum ullam ea, quam
+                            corporis aliquid? Dolorum fugit officia enim autem
+                            aspernatur sit, alias, dignissimos, perferendis
+                            incidunt voluptas debitis molestias.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Facilities -->
+            <section class="facilities">
+                <h1>Lorem, ipsum.</h1>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tenetur aspernatur hic ut.
+                </p>
+
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="./images/library.png" alt="" />
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Placeat quam ipsa pariatur?
+                        </p>
+                    </div>
+
+                    <div class="facilities-col">
+                        <img src="./images/basketball.png" alt="" />
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Placeat quam ipsa pariatur?
+                        </p>
+                    </div>
+
+                    <div class="facilities-col">
+                        <img src="./images/cafeteria.png" alt="" />
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Placeat quam ipsa pariatur?
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </content>
+
+        <!-- Footer -->
+        <footer>
+            <h4>About us</h4>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                eius quis rem, sint voluptatibus praesentium perferendis nobis
+                optio iusto, tempore a dignissimos nihil. Dicta fugiat vel
+                reiciendis sint odio! Nobis et fugiat distinctio? Nesciunt cum
+                nulla consectetur reiciendis modi impedit.
+            </p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

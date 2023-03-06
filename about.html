@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About us</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="logo" />
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="./course.html">Course</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About us</h1>
+        </section>
+
+        <content>
+            <section class="about-us">
+                <div class="row">
+                    <div class="about-col">
+                        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Exercitationem necessitatibus modi accusamus
+                            eius quos quaerat voluptas atque veniam perferendis!
+                            Non quis dolores, nostrum animi aliquid dicta odit
+                            omnis illum blanditiis? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Exercitationem
+                            necessitatibus modi accusamus eius quos quaerat
+                            voluptas atque veniam perferendis! Non quis dolores,
+                            nostrum animi aliquid dicta odit omnis illum
+                            blanditiis? Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Exercitationem necessitatibus modi
+                            accusamus eius quos quaerat voluptas atque veniam
+                            perferendis! Non quis dolores, nostrum animi aliquid
+                            dicta odit omnis illum blanditiis?
+                        </p>
+                        <a href="#" class="btn red-btn">EXPLORE NOW</a>
+                    </div>
+                    <div class="about-col">
+                        <img src="./images/about.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+        </content>
+
+        <!-- Footer -->
+        <footer>
+            <h4>About us</h4>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                eius quis rem, sint voluptatibus praesentium perferendis nobis
+                optio iusto, tempore a dignissimos nihil. Dicta fugiat vel
+                reiciendis sint odio! Nobis et fugiat distinctio? Nesciunt cum
+                nulla consectetur reiciendis modi impedit.
+            </p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

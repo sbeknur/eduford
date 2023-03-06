@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact us</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="logo" />
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./course.html">Course</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact us</h1>
+        </section>
+
+        <content>
+            <section class="location">
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A5ea9522a25c9e1701d1f92f7ae0c1261d194780dc92f9fdeb9eb3873de103660&amp;source=constructor"
+                    width="800"
+                    height="400"
+                    frameborder="0"
+                ></iframe>
+            </section>
+
+            <section class="contact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa fa-home"></i>
+                            <span>
+                                <h5>XYZ, Road, ABC Building</h5>
+                                <p>Sillicon, Valley, USA</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                <h5>+21324354675663</h5>
+                                <p>Mon to Sun, 9AM to 9PM</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope-o"></i>
+                            <span>
+                                <h5>info@gmail.com</h5>
+                                <p>24/7</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <form>
+                            <input type="text" placeholder="Enter name" />
+                            <input type="email" placeholder="Enter email" />
+                            <textarea
+                                rows="5"
+                                placeholder="Your comment"
+                            ></textarea>
+                            <button type="submit" class="btn red-btn">
+                                Post Comment
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </content>
+
+        <!-- Footer -->
+        <footer>
+            <h4>About us</h4>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                eius quis rem, sint voluptatibus praesentium perferendis nobis
+                optio iusto, tempore a dignissimos nihil. Dicta fugiat vel
+                reiciendis sint odio! Nobis et fugiat distinctio? Nesciunt cum
+                nulla consectetur reiciendis modi impedit.
+            </p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
